@@ -190,7 +190,7 @@ button {
 }
 
 .content-text p {
-  color: #6c757d; /* Gris foncé pour le texte */
+  color: #6c757d;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
@@ -203,7 +203,7 @@ button {
   color: #fff;
   border-radius: 6px;
   padding: 14px 24px;
-  width: fit-content; /* Le bouton s'adapte au texte */
+  width: fit-content;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -241,10 +241,8 @@ button {
   z-index: 1;
 }
 
-
-
 .customise {
-  background-color: #1a3b6e; /* Bleu marine foncé */
+  background-color: #043873;
   padding: 80px 150px;
 }
 
@@ -322,8 +320,3 @@ button {
   height: 350px;
   background-color: #c4defd;
 }
-
-
-
-
-
