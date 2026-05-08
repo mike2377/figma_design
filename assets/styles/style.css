@@ -314,7 +314,7 @@ button {
   background-color: #c4defd;
 }
 
-/* pricing */ 
+/* pricing */
 .pricing {
   padding: 0 150px;
   background-color: #fff;
@@ -391,10 +391,8 @@ button {
 .description {
   font-size: 20px;
   font-weight: 500;
-  font-size: 15px;
   line-height: 23px;
   letter-spacing: -2%;
-
 }
 
 .features {
