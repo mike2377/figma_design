@@ -24,6 +24,7 @@ header {
   display: flex;
   align-items: center;
 }
+
 .logo img {
   width: 50%;
   height: inherit;
@@ -313,7 +314,7 @@ button {
   background-color: #c4defd;
 }
 
-/*pricing*/
+/* pricing */ 
 .pricing {
   padding: 0 150px;
   background-color: #fff;
@@ -363,15 +364,10 @@ button {
   gap: 5px;
 }
 
-.header-card.personal .price {
-  color: #ffe492;
-}
-
-
 .pricing-card.personal {
   background: #043873;
   border-color: #043873;
-  box-shadow: 0 10px 30px rgba(26, 59, 110, 0.25);
+  box-shadow: 0 10px 30px rgba(26 59 110 / 25%);
   color: #fff;
 }
 
@@ -386,6 +382,10 @@ button {
   font-size: 30px;
   font-weight: 700;
   margin: 0;
+}
+
+.header-card.personal .price {
+  color: #ffe492;
 }
 
 .description {
@@ -413,13 +413,13 @@ button {
   font-size: 12px;
 }
 
-.pricing-card.personal .features li i {
-  color: #ffe492;
-}
-
 .features li i {
   margin-top: 3px;
   flex-shrink: 0;
+}
+
+.pricing-card.personal .features li i {
+  color: #ffe492;
 }
 
 /* Boutons */
