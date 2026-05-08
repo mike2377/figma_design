@@ -249,7 +249,6 @@ button {
 .customise2 {
   background-color: #fff;
   padding: 80px 150px;
-
 }
 
 .customise-container {
@@ -266,8 +265,8 @@ button {
 }
 
 .customise-content h1 {
-  color: #ffffff;
-  font-family: "Arial", Helvetica, sans-serif;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 1.1;
@@ -276,7 +275,7 @@ button {
 
 .customise-content h1 span {
   display: inline-block;
-  background-image: url(../images/under.svg);
+  background-image: url("../images/under.svg");
   background-size: 100% 13px;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -285,7 +284,7 @@ button {
 
 .customise-content p {
   color: #a8b8d0;
-  font-family: "Arial", Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
@@ -299,7 +298,7 @@ button {
 
 .btn-lets-go {
   background-color: #4f9cf9;
-  color: #ffffff;
+  color: #fff;
   border-radius: 6px;
   padding: 14px 28px;
   width: fit-content;
