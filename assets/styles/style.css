@@ -550,7 +550,8 @@ button {
   display: inline-block;
 }
 
-.sponsor-title span {display: inline-block;
+.sponsor-title span {
+  display: inline-block;
   background-image: url("../images/under.svg");
   background-size: 100% 10px;
   background-position: bottom center;
