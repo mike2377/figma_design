@@ -535,3 +535,38 @@ button {
   height: 100%;
 }
 
+/* spnsors */
+.sponsors {
+  padding: 80px 150px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.sponsor-title {
+  font-size: 59px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 60px;
+  display: inline-block;
+}
+
+.sponsor-title span {display: inline-block;
+  background-image: url("../images/under.svg");
+  background-size: 100% 10px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.sponsor-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.sponsor-logo img {
+  height: 50px;
+  width: auto;
+  opacity: 1;
+}
