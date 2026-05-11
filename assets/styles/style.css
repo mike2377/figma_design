@@ -627,7 +627,146 @@ button {
   color: #fff;
 }
 
-.app-img img{
-  width: 100%;
+.app-img img {
+  width: 80%;
   height: 400px;
+}
+
+/* testimonial */
+.testimonials {
+  padding: 80px 150px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.testimonial-title {
+  font-size: 45px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.testimonial-title span {
+  background-image: linear-gradient(#ffd573 60%, transparent 40%);
+  background-size: 100% 30%;
+  background-position: 0 85%;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
+}
+
+.cards-lists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  padding: 40px 40px;
+  border-radius: 5px;
+  text-align: left;
+  gap: 20px;
+}
+
+.card-white {
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(0 0 0 / 8%);
+  border: 1px solid #f0f0f0;
+}
+
+.card-blue {
+  background-color: #4f9cf9;
+  color: #fff;
+}
+
+.quote-icon {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.icon-white {
+  color: #fff;
+}
+
+.icon-blue {
+  color: #043873;
+}
+
+.card-text {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.card-white .card-text {
+  color: #000;
+}
+
+.card-blue .card-text {
+  color: #ffF;
+  opacity: 0.9;
+}
+
+.card-white .line {
+  height: 1px;
+  background-color: #000;
+  margin-bottom: 25px;
+}
+
+.card-blue .line {
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 25px;
+}
+
+.card-blue .client-info h4 {
+  color: #043873;
+}
+
+.client-info {
+  gap: 30px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.client-info h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.client-info p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  font-weight: 600px;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #4f9cf9;
+}
+
+.dot.black {
+  background-color: #000;
+  transform: scale(1.2);
 }
