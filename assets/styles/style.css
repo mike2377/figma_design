@@ -171,6 +171,14 @@ button {
   gap: 20px;
 }
 
+.testimonial-title span {
+  background-image: linear-gradient(#ffd573 60%, transparent 40%);
+  background-size: 100% 30%;
+  background-position: 0 85%;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
+}
+
 .content-text h1 {
   color: #212529;
   font-weight: 700;
@@ -635,7 +643,7 @@ button {
 /* testimonial */
 .testimonials {
   padding: 80px 150px;
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
 }
 
@@ -646,14 +654,6 @@ button {
   margin-bottom: 50px;
 }
 
-.testimonial-title span {
-  background-image: linear-gradient(#ffd573 60%, transparent 40%);
-  background-size: 100% 30%;
-  background-position: 0 85%;
-  background-repeat: no-repeat;
-  padding-bottom: 5px;
-}
-
 .cards-lists {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -662,7 +662,7 @@ button {
 }
 
 .card {
-  padding: 40px 40px;
+  padding: 40px;
   border-radius: 5px;
   text-align: left;
   gap: 20px;
@@ -704,7 +704,7 @@ button {
 }
 
 .card-blue .card-text {
-  color: #ffF;
+  color: #fff;
   opacity: 0.9;
 }
 
@@ -718,6 +718,12 @@ button {
   height: 1px;
   background-color: #fff;
   margin-bottom: 25px;
+}
+
+.client-info h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .card-blue .client-info h4 {
@@ -739,12 +745,6 @@ button {
   height: 70px;
   border-radius: 50%;
   object-fit: cover;
-}
-
-.client-info h4 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: bold;
 }
 
 .client-info p {
