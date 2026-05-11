@@ -172,9 +172,9 @@ button {
 }
 
 .testimonial-title span {
-  background-image: linear-gradient(#ffd573 60%, transparent 40%);
-  background-size: 100% 30%;
-  background-position: 0 85%;
+  background-image: linear-gradient(#ffe492 60%, transparent 40%);
+  background-size: 100% 50%;
+  background-position: bottom center;
   background-repeat: no-repeat;
   padding-bottom: 5px;
 }
@@ -189,19 +189,19 @@ button {
 }
 
 .title-sponsor span {
-  display: inline-block;
-  background-image: url("../images/under.svg");
-  background-size: 100% 10px;
+  background-image: linear-gradient(#ffe492 60%, transparent 40%);
+  background-size: 100% 50%;
   background-position: bottom center;
   background-repeat: no-repeat;
+  padding-bottom: 5px;
 }
 
 .content-text h1 span {
-  display: inline-block;
-  background-image: url("../images/under.svg");
-  background-size: 300% 100%;
-  background-position: bottom;
+  background-image: linear-gradient(#ffe492 60%, transparent 40%);
+  background-size: 100% 50%;
+  background-position: bottom center;
   background-repeat: no-repeat;
+  padding-bottom: 5px;
 }
 
 .content-text p {
@@ -280,9 +280,8 @@ button {
 }
 
 .customise-content h1 span {
-  display: inline-block;
-  background-image: url("../images/under.svg");
-  background-size: 100% 13px;
+  background-image: linear-gradient(#ffe492 60%, transparent 40%);
+  background-size: 100% 50%;
   background-position: bottom center;
   background-repeat: no-repeat;
   padding-bottom: 5px;
@@ -517,11 +516,11 @@ button {
 }
 
 .content-data h1 span {
-  display: inline-block;
-  background-image: url("../images/under.svg");
-  background-size: 100% 10px;
+  background-image: linear-gradient(#ffe492 60%, transparent 40%);
+  background-size: 100% 50%;
   background-position: bottom center;
   background-repeat: no-repeat;
+  padding-bottom: 5px;
 }
 
 .content-data p {
@@ -769,4 +768,58 @@ button {
 .dot.black {
   background-color: #000;
   transform: scale(1.2);
+}
+
+/* cta */
+.cta {
+  padding: 80px 150px;
+  background-color: #043873;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.cta-container h2 {
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.cta-container p {
+  font-size: 20px;
+  color: #b0c4de;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.btn-cta {
+  background-color: #4f9cf9;
+  color: #fff;
+  padding: 16px 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-sales {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.platform-icons {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  font-size: 40px;
+  color: #fff;
 }
