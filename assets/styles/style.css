@@ -345,6 +345,7 @@ button {
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   align-items: stretch;
+  margin: 0 auto;
 }
 
 .pricing-card {
@@ -360,7 +361,6 @@ button {
 .header-card {
   display: flex;
   flex-direction: column;
-  padding: 0;
   gap: 5px;
 }
 
