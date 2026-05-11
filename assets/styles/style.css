@@ -542,7 +542,7 @@ button {
   text-align: center;
 }
 
-.sponsor-title {
+.title-sponsor {
   font-size: 59px;
   font-weight: 700;
   color: #000;
@@ -550,7 +550,7 @@ button {
   display: inline-block;
 }
 
-.sponsor-title span {
+.title-sponsor span {
   display: inline-block;
   background-image: url("../images/under.svg");
   background-size: 100% 10px;
