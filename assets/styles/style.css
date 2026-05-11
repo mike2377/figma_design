@@ -79,6 +79,7 @@ button {
 .hero {
   background: #043873;
   background-image: url("../images/onde.svg");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 450px;
   padding: 20px 150px;
@@ -145,6 +146,10 @@ button {
   display: grid;
   gap: 100px;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/BACKGROUND.svg");
+  background-position: left top;
+  background-size: 259px 500px;
+  background-repeat: no-repeat;
 }
 
 .content {
@@ -224,15 +229,6 @@ button {
   max-width: 100%;
   height: 400px;
   display: block;
-}
-
-.backelement {
-  background-image: url("../images/BACKGROUND.svg");
-  background-position: left center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 1;
 }
 
 .customise {
@@ -316,7 +312,7 @@ button {
 
 /* pricing */
 .pricing {
-  padding: 0 150px;
+  padding: 100px 150px;
   background-color: #fff;
 }
 
@@ -420,7 +416,7 @@ button {
   color: #ffe492;
 }
 
-/* Boutons */
+/* Buttons */
 .btn-plan {
   width: 50%;
   background: transparent;
@@ -438,3 +434,47 @@ button {
   border-color: #4f9cf9;
   color: #fff;
 }
+
+/* work */
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #043873;
+  background-image: url("../images/BACKGROUND2.png");
+  background-repeat: no-repeat;
+  background-size: 30% 100%;
+  padding: 100px 150px;
+  color: #fff;
+}
+
+.work-content {
+  padding: 0 100px;
+}
+
+.work-content h2 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 20px 0;
+}
+
+.work-content p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0 0 35px 0;
+}
+
+.btn-try-today {
+  background-color: #4f9cf9;
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
