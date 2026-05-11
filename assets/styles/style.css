@@ -180,6 +180,14 @@ button {
   margin: 0;
 }
 
+.title-sponsor span {
+  display: inline-block;
+  background-image: url("../images/under.svg");
+  background-size: 100% 10px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
 .content-text h1 span {
   display: inline-block;
   background-image: url("../images/under.svg");
@@ -548,14 +556,6 @@ button {
   color: #000;
   margin-bottom: 60px;
   display: inline-block;
-}
-
-.title-sponsor span {
-  display: inline-block;
-  background-image: url("../images/under.svg");
-  background-size: 100% 10px;
-  background-position: bottom center;
-  background-repeat: no-repeat;
 }
 
 .sponsor-grid {
