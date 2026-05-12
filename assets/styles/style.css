@@ -288,7 +288,7 @@ button {
 }
 
 .customise-content p {
-  color: #a8b8d0;
+  color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -297,13 +297,13 @@ button {
   max-width: 400px;
 }
 
-.custom-text2 h1 {
+.custom-text2 h1,
+.custom-text2 p {
   color: #000;
 }
 
 .btn-lets-go {
   background-color: #4f9cf9;
-  color: #fff;
   border-radius: 6px;
   padding: 14px 28px;
   width: fit-content;
@@ -312,6 +312,7 @@ button {
 
 .btn-lets-go p {
   margin: 0;
+  color: #fff;
   font-size: 14px;
   font-weight: 600;
   display: flex;
@@ -327,7 +328,7 @@ button {
 
 /* pricing */
 .pricing {
-  padding: 100px 150px;
+  padding: 50px 150px;
   background-color: #fff;
 }
 
@@ -363,16 +364,16 @@ button {
   background: #fff;
   border: 2px solid #ffe492;
   border-radius: 16px;
-  padding: 30px 20px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 
 .header-card {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 30px;
 }
 
 .pricing-card.personal {
@@ -400,7 +401,7 @@ button {
 }
 
 .description {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 23px;
   letter-spacing: -2%;
@@ -412,14 +413,14 @@ button {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
 }
 
 .features li {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .features li i {
@@ -823,3 +824,116 @@ button {
   font-size: 40px;
   color: #fff;
 }
+
+.footer {
+  background-color: #043873;
+  color: #fff;
+  padding: 60px 150px;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+.footer-container {
+  margin: 0 auto;
+}
+
+.footer-info {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr 2fr 3fr;
+  gap: 50px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #2e4e73;
+}
+
+.footer-logo-description .logo {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo-description .logo img {
+  width: 80%;
+}
+
+.footer-logo-description p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  max-width: 280px;
+}
+
+.footer-link h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer-link ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-link li {
+  margin-bottom: 12px;
+}
+
+.footer-link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-try h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-try p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.btn-footer {
+  background-color: #4f9cf9;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.footer-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  font-size: 16px;
+}
+
+.footer-btn-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.footer-btn-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 16px;
+}
+
