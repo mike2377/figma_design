@@ -726,6 +726,20 @@ button {
   font-weight: bold;
 }
 
+.footer-link h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer-try h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
 .card-blue .client-info h4 {
   color: #043873;
 }
@@ -829,7 +843,7 @@ button {
   background-color: #043873;
   color: #fff;
   padding: 60px 150px;
-  font-family: "Arial", Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-container {
@@ -860,13 +874,6 @@ button {
   max-width: 280px;
 }
 
-.footer-link h4 {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
 .footer-link ul {
   list-style: none;
   padding: 0;
@@ -881,13 +888,6 @@ button {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
-}
-
-.footer-try h4 {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  color: #fff;
 }
 
 .footer-try p {
