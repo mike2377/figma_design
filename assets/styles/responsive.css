@@ -12,6 +12,66 @@
   .testimonials,
   .cta,
   .footer {
-    padding: 20px 30px;
+    padding: 20px 32px;
+  }
+}
+
+@media (max-width: 1152px) {
+  header{
+    padding: 20px 32px;
+    grid-template-columns: 7fr 5fr;
+  }
+
+  .logo img {
+    width: 30%;
+    height: inherit;
+  }
+
+  .nav {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .btn-menu {
+    display: block;
+  }
+  
+  .hero,
+  .managment,
+  .customise,
+  .customise2,
+  .pricing,
+  .work,
+  .data,
+  .sponsors,
+  .apps,
+  .testimonials,
+  .cta,
+  .footer {
+    padding: 20px 32px;
+  }
+
+  .work {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    background-image: none;
+  }
+
+  .work-content {
+    width: 600px;
+    height: 290px;
+    padding: 0;
+  }
+
+  .cards-lists {
+    gap: 20px;
+  }
+
+  .card {
+    padding: 20px;
   }
 }
