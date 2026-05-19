@@ -1,0 +1,17 @@
+@media (max-width: 1440px) {
+  header,
+  .hero,
+  .managment,
+  .customise,
+  .customise2,
+  .pricing,
+  .work,
+  .data,
+  .sponsors,
+  .apps,
+  .testimonials,
+  .cta,
+  .footer {
+    padding: 20px 30px;
+  }
+}
