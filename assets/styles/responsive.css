@@ -39,7 +39,10 @@
     display: block;
   }
 
-  .hero,
+  .hero {
+    padding: 20px 32px;
+    height: 45vh;
+  }
   .managment,
   .customise,
   .customise2,
@@ -52,6 +55,12 @@
   .cta,
   .footer {
     padding: 20px 32px;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 300px;
+    background: #c4defd
   }
 
   .work {
@@ -73,5 +82,236 @@
 
   .card {
     padding: 20px;
+  }
+}
+
+@media (max-width: 920px) {
+  header{
+    padding: 20px 32px;
+    grid-template-columns: 8fr 4fr;
+  }
+
+  .logo img {
+    width: 30%;
+    height: inherit;
+  }
+
+  .nav {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-menu,
+  .btn-log,
+  .btn-try {
+    display: none;
+  }
+
+  .btn-menu {
+    display: block;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 32px;
+    text-align: center;
+    height: auto;
+    gap: 20px;
+  }
+
+  .customise,
+  .customise2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px 20px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .heading,
+  .content-heading,
+  .customise-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25;
+  }
+
+  .text-block h2,
+  .content-text h1,
+  .customise-content h1 {
+    font-size: 52px;
+  }
+
+  .text-block p,
+  .content-text p,
+  .customise-content p {
+    font-size: 18px;
+  }
+
+  .btn-free {
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+
+  .image-container,
+  .customise-image {
+    width: 70%;
+    height: 300px;
+    background: #c4defd
+  }
+
+  .managment {
+    padding: 50px 20px;
+    gap: 25px;
+    
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .content-bottom {
+    flex-direction: column-reverse;
+  }
+
+  .content-bottom .image-container {
+    background-color: transparent;
+    text-align: center;
+  }
+
+  .image-container img {
+    width: 70%;
+    height: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-get,
+  .btn-lets-go {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pricing {
+    padding: 50px 20px;
+    gap: 25px;
+  }
+
+  .pricing-card.free,
+  .pricing-card.organization {
+    display: none;
+  }
+
+  .pricing-cards {
+  grid-template-columns: 1fr;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0 auto;
+}
+
+  .pricing-card.personal {
+    width: 60%;
+  }
+
+  .work {
+    padding: 50px 20px;
+  }
+
+  .data {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding: 55px 20px;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .sponsors {
+    padding: 50px 20px;
+    gap: 25px;
+  }
+
+  .sponsor-grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 auto;
+  }
+
+  .apps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px 20px;
+    gap: 30px;
+  }
+
+  .app-heading {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px 0;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .cta {
+    align-items: flex-start;
+    padding: 80px 20px;
+    text-align: left;
+    gap: 30px;
+  }
+
+  .cta-container {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 20px 32px;
+    gap: 20px;
+  }
+
+  .footer-info {
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+  .footer-logo-description .logo img {
+    width: 55%;
+  }
+
+  .footer-logo-description p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    max-width: 500px;
+  }
+
+  .footer-btn {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
   }
 }
