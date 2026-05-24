@@ -40,8 +40,8 @@
   }
 
   .hero {
-    padding: 20px 32px;
-    height: 45vh;
+    padding: 80px 32px;
+    height: auto;
   }
 
   .managment,
@@ -55,13 +55,22 @@
   .testimonials,
   .cta,
   .footer {
-    padding: 20px 32px;
+    padding: 80px 32px;
   }
 
   .image-container {
     width: 100%;
     height: 300px;
     background: #c4defd;
+  }
+
+  .bottom-box {
+    background-color: transparent;
+  }
+
+  .image-container img {
+    width: 90%;
+    height: 300px;
   }
 
   .work {
@@ -93,7 +102,7 @@
   }
 
   .logo img {
-    width: 30%;
+    width: 40%;
     height: inherit;
   }
 
@@ -112,6 +121,9 @@
   }
 
   .hero {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 450px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -188,10 +200,9 @@
 
   .image-container img {
     width: 70%;
-    height: 280px;
+    height: 300px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
 
   .btn-get,
@@ -224,6 +235,9 @@
 
   .work {
     padding: 50px 20px;
+    background-image: url("../images/BACKGROUND2.png");
+    background-repeat: no-repeat;
+    background-size: 25% 100%;
   }
 
   .data {
@@ -313,4 +327,173 @@
     flex-direction: column;
     gap: 20px;
   }
+}
+
+@media (max-width: 568px) {
+  header {
+    padding: 20px 16px;
+  }
+
+  .logo img {
+    width: 90%;
+    height: inherit;
+  }
+
+  .hero {
+    background-image: url("../images/app.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 500px;
+    padding: 80px 16px;
+    text-align: center;
+    height: auto;
+    gap: 50px;
+  }
+
+  .heading {
+    gap: 100px;
+  }
+
+  .text-block h2 {
+    font-size: 45px;
+    padding: 0 10px;
+  }
+
+  .image-container,
+  .image-container img,
+  .customise-image {
+    width: 100%;
+    height: 300px;
+  }
+
+  .managment,
+  .customise,
+  .customise2,
+  .pricing,
+  .data,
+  .sponsors,
+  .testimonials,
+  .footer {
+    padding: 80px 16px;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .content-text h1,
+  .customise-content h1,
+  .pricing-header h2,
+  .content-data h1,
+  .title-sponsor,
+  .cta-container h2 {
+    font-size: 42px;
+  }
+
+  .pricing-card.personal {
+    width: 95%;
+    text-align: left;
+  }
+
+  .work-content {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .work-content h2 {
+    font-size: 40px;
+  }
+
+  .apps {
+    padding: 80px 16px;
+    gap: 30px;
+    background-image: url("../images/app.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+  }
+
+  .app-text-block h2 {
+    font-size: 38px;
+  }
+
+  .app-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .app-heading {
+    gap: 80px
+  }
+
+  .cards-lists {
+    grid-template-columns: 1fr;
+  }
+
+  .card-blue {
+    display: none;
+  }
+
+  .quote-icon {
+    font-size: 80px;
+    margin-bottom: 30px;
+  }
+
+  .card-text {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+
+  .client-info h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .client-info p {
+    font-size: 18px;
+  }
+
+  .footer-logo-description .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-btn-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 340px) {
+  .text-block h2 {
+    font-size: 35px;
+  }
+
+  .content-text h1,
+  .customise-content h1,
+  .pricing-header h2,
+  .content-data h1,
+  .title-sponsor,
+  .cta-container h2,
+  .work-content h2,
+  .testimonial-title {
+    font-size: 35px;
+  }
+
+  .app-text-block h2 {
+    font-size: 30px;
+  }
+
 }

@@ -174,7 +174,7 @@ button {
 }
 
 .testimonial-title span {
-  background-image: linear-gradient(#ffe492 60%, transparent 40%);
+  background-image: linear-gradient(#ffe492 50%, transparent 30%);
   background-size: 100% 50%;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -190,7 +190,7 @@ button {
 }
 
 .title-sponsor span {
-  background-image: linear-gradient(#ffe492 60%, transparent 40%);
+  background-image: linear-gradient(#ffe492 50%, transparent 30%);
   background-size: 100% 50%;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -198,7 +198,7 @@ button {
 }
 
 .content-text h1 span {
-  background-image: linear-gradient(#ffe492 60%, transparent 40%);
+  background-image: linear-gradient(#ffe492 50%, transparent 30%);
   background-size: 100% 50%;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -280,7 +280,7 @@ button {
 }
 
 .customise-content h1 span {
-  background-image: linear-gradient(#ffe492 60%, transparent 40%);
+  background-image: linear-gradient(#ffe492 50%, transparent 30%);
   background-size: 100% 50%;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -341,6 +341,14 @@ button {
   font-weight: 700;
   color: #212529;
   margin: 0 0 16px;
+}
+
+.pricing-header h2 span {
+  background-image: linear-gradient(#ffe492 50%, transparent 30%);
+  background-size: 100% 50%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
 }
 
 .pricing-header p {
@@ -475,6 +483,14 @@ button {
   margin: 0 0 20px;
 }
 
+.work-content h2 span {
+  background-image: linear-gradient(#4F9CF9 50%, transparent 30%);
+  background-size: 100% 50%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
+}
+
 .work-content p {
   font-size: 15px;
   line-height: 1.6;
@@ -516,7 +532,7 @@ button {
 }
 
 .content-data h1 span {
-  background-image: linear-gradient(#ffe492 60%, transparent 40%);
+  background-image: linear-gradient(#ffe492 50%, transparent 30%);
   background-size: 100% 50%;
   background-position: bottom center;
   background-repeat: no-repeat;
