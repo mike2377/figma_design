@@ -1,5 +1,8 @@
 @media (max-width: 1440px) {
-  header,
+  header {
+    padding: 20px 32px;
+  }
+  
   .hero,
   .managment,
   .customise,
@@ -12,7 +15,7 @@
   .testimonials,
   .cta,
   .footer {
-    padding: 20px 32px;
+    padding: 80px 32px;
   }
 }
 
