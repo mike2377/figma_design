@@ -168,7 +168,6 @@ No build tools, no dependencies — just open and go.
 - Add JavaScript for the mobile hamburger menu
 - Animate sections on scroll using Intersection Observer
 - Add an active state for nav links
-- Make the pricing toggle (monthly / yearly) interactive
 
 ---
 
