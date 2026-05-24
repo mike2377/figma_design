@@ -422,7 +422,7 @@
   }
 
   .app-heading {
-    gap: 80px
+    gap: 80px;
   }
 
   .cards-lists {
@@ -473,7 +473,6 @@
     flex-direction: column;
     align-items: center;
   }
-
 }
 
 @media (max-width: 340px) {
@@ -495,5 +494,4 @@
   .app-text-block h2 {
     font-size: 30px;
   }
-
 }
