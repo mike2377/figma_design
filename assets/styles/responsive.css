@@ -1,0 +1,498 @@
+@media (max-width: 1440px) {
+  header {
+    padding: 20px 32px;
+  }
+
+  .hero,
+  .managment,
+  .customise,
+  .customise2,
+  .pricing,
+  .work,
+  .data,
+  .sponsors,
+  .apps,
+  .testimonials,
+  .cta,
+  .footer {
+    padding: 80px 32px;
+  }
+}
+
+@media (max-width: 1152px) {
+  header {
+    padding: 20px 32px;
+    grid-template-columns: 7fr 5fr;
+  }
+
+  .logo img {
+    width: 30%;
+    height: inherit;
+  }
+
+  .nav {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .btn-menu {
+    display: block;
+  }
+
+  .hero {
+    padding: 80px 32px;
+    height: auto;
+  }
+
+  .managment,
+  .customise,
+  .customise2,
+  .pricing,
+  .work,
+  .data,
+  .sponsors,
+  .apps,
+  .testimonials,
+  .cta,
+  .footer {
+    padding: 80px 32px;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 300px;
+  }
+
+  .bottom-box {
+    background-color: transparent;
+  }
+
+  .image-container img {
+    width: 90%;
+    height: 300px;
+  }
+
+  .work {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    background-image: none;
+  }
+
+  .work-content {
+    width: 600px;
+    height: 290px;
+    padding: 0;
+  }
+
+  .cards-lists {
+    gap: 20px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 920px) {
+  header {
+    padding: 20px 32px;
+    grid-template-columns: 8fr 4fr;
+  }
+
+  .logo img {
+    width: 40%;
+    height: inherit;
+  }
+
+  .nav {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-menu,
+  .btn-log,
+  .btn-try {
+    display: none;
+  }
+
+  .btn-menu {
+    display: block;
+  }
+
+  .hero {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 450px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 32px;
+    text-align: center;
+    height: auto;
+    gap: 20px;
+  }
+
+  .customise,
+  .customise2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px 20px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .heading,
+  .content-heading,
+  .customise-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25;
+  }
+
+  .text-block h2,
+  .content-text h1,
+  .customise-content h1 {
+    font-size: 52px;
+  }
+
+  .text-block p,
+  .content-text p,
+  .customise-content p {
+    font-size: 18px;
+  }
+
+  .btn-free {
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+
+  .image-container img,
+  .customise-image img {
+    width: 90%;
+    height: 300px;
+  }
+
+  .managment {
+    padding: 50px 20px;
+    gap: 25px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .content-bottom {
+    flex-direction: column-reverse;
+  }
+
+  .content-bottom .image-container {
+    background-color: transparent;
+    text-align: center;
+  }
+
+  .image-container img {
+    width: 90%;
+    height: 300px;
+    display: block;
+    margin: auto;
+  }
+
+  .btn-get,
+  .btn-lets-go {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pricing {
+    padding: 50px 20px;
+    gap: 25px;
+  }
+
+  .pricing-card.free,
+  .pricing-card.organization {
+    display: none;
+  }
+
+  .pricing-cards {
+    grid-template-columns: 1fr;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0 auto;
+  }
+
+  .pricing-card.personal {
+    width: 60%;
+  }
+
+  .work {
+    padding: 50px 20px;
+    background-image: url("../images/BACKGROUND2.png");
+    background-repeat: no-repeat;
+    background-size: 25% 100%;
+  }
+
+  .data {
+    display: flex;
+    justify-content: center;
+    flex-flow: column-reverse wrap;
+    padding: 55px 20px;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .sponsors {
+    padding: 50px 20px;
+    gap: 25px;
+  }
+
+  .sponsor-grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 auto;
+  }
+
+  .apps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px 20px;
+    gap: 30px;
+  }
+
+  .app-heading {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px 0;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .cta {
+    align-items: flex-start;
+    padding: 80px 20px;
+    text-align: left;
+    gap: 30px;
+  }
+
+  .cta-container {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 20px 32px;
+    gap: 20px;
+  }
+
+  .footer-info {
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+  .footer-logo-description .logo img {
+    width: 55%;
+  }
+
+  .footer-logo-description p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    max-width: 500px;
+  }
+
+  .footer-btn {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 568px) {
+  header {
+    padding: 20px 16px;
+  }
+
+  .logo img {
+    width: 90%;
+    height: inherit;
+  }
+
+  .hero {
+    background-image: url("../images/app.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 500px;
+    padding: 80px 16px;
+    text-align: center;
+    height: auto;
+    gap: 50px;
+  }
+
+  .heading {
+    gap: 100px;
+  }
+
+  .text-block h2 {
+    font-size: 45px;
+    padding: 0 10px;
+  }
+
+  .image-container,
+  .image-container img,
+  .customise-image img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .managment,
+  .customise,
+  .customise2,
+  .pricing,
+  .data,
+  .sponsors,
+  .testimonials,
+  .footer {
+    padding: 80px 16px;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .content-text h1,
+  .customise-content h1,
+  .pricing-header h2,
+  .content-data h1,
+  .title-sponsor,
+  .cta-container h2 {
+    font-size: 42px;
+  }
+
+  .pricing-card.personal {
+    width: 95%;
+    text-align: left;
+  }
+
+  .work-content {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .work-content h2 {
+    font-size: 40px;
+  }
+
+  .apps {
+    padding: 80px 16px;
+    gap: 30px;
+    background-image: url("../images/app.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+  }
+
+  .app-text-block h2 {
+    font-size: 38px;
+  }
+
+  .app-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .app-heading {
+    gap: 80px;
+  }
+
+  .cards-lists {
+    grid-template-columns: 1fr;
+  }
+
+  .card-blue {
+    display: none;
+  }
+
+  .quote-icon {
+    font-size: 80px;
+    margin-bottom: 30px;
+  }
+
+  .card-text {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+
+  .client-info h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .client-info p {
+    font-size: 18px;
+  }
+
+  .footer-logo-description .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-btn-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 340px) {
+  .text-block h2 {
+    font-size: 35px;
+  }
+
+  .content-text h1,
+  .customise-content h1,
+  .pricing-header h2,
+  .content-data h1,
+  .title-sponsor,
+  .cta-container h2,
+  .work-content h2,
+  .testimonial-title {
+    font-size: 35px;
+  }
+
+  .app-text-block h2 {
+    font-size: 30px;
+  }
+}
